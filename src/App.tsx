@@ -79,7 +79,7 @@ function App() {
             </div>
             <div className="hero-visual">
               <div className="hero-photo-wrap">
-                <img src="/assets/hero-image.jpg" onError={(e) => { e.currentTarget.src = 'https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=1200&q=90' }} alt="Handcrafted personalized gifts arranged on a coastal-inspired table" fetchPriority="high" />
+                <img src="/hannah-desantis-creations/assets/hero-image.jpg" onError={(e) => { e.currentTarget.src = 'https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=1200&q=90' }} alt="Handcrafted personalized gifts arranged on a coastal-inspired table" fetchPriority="high" />
               </div>
               <div className="hero-note"><Sparkles size={18} /><span>Custom made<br /><strong>for your moment</strong></span></div>
               <div className="hero-seal">WITH<br /><strong>LOVE</strong></div>
@@ -117,7 +117,7 @@ function App() {
 
         <section className="about-section section-pad" id="about">
           <div className="about-grid">
-            <div className="about-image"><img src="/assets/hannah-headshot.jpg" onError={(e) => { e.currentTarget.src = 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=85' }} alt="Hannah DeSantis" loading="lazy" /><span>Hannah<br /><em>DeSantis</em></span></div>
+            <div className="about-image"><img src="/hannah-desantis-creations/assets/hannah-headshot.jpg" onError={(e) => { e.currentTarget.src = 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=85' }} alt="Hannah DeSantis" loading="lazy" /><span>Hannah<br /><em>DeSantis</em></span></div>
             <div className="about-copy"><p className="eyebrow">Meet the Maker</p><h2>A Little About Me</h2><p className="about-lead">Creating something meaningful starts with listening to your story.</p><p>I’m passionate about transforming simple ideas into thoughtful, personalized pieces that feel special to give and joyful to receive. Every detail is considered, every name and message is handled with care, and every creation is made to celebrate the people and moments that matter.</p><p><em>Beautifully made, with intention and heart.</em></p><a className="button button-primary" href="#custom">Start a Custom Project</a></div>
           </div>
         </section>

@@ -56,5 +56,6 @@ function CustomPage() {
 }
 
 export default function AppRouter() {
-  return <BrowserRouter><ScrollToTop /><Routes><Route path="/" element={<HomePage />} /><Route path="/creations" element={<CreationsPage />} /><Route path="/about" element={<AboutPage />} /><Route path="/custom-orders" element={<CustomPage />} /><Route path="/how-it-works" element={<ProcessPage />} /><Route path="*" element={<HomePage />} /></Routes></BrowserRouter>
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '') || '/'
+  return <BrowserRouter basename={base}><ScrollToTop /><Routes><Route path="/" element={<HomePage />} /><Route path="/creations" element={<CreationsPage />} /><Route path="/about" element={<AboutPage />} /><Route path="/custom-orders" element={<CustomPage />} /><Route path="/how-it-works" element={<ProcessPage />} /><Route path="*" element={<HomePage />} /></Routes></BrowserRouter>
 }

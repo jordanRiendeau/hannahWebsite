@@ -8,6 +8,10 @@
     <title>Hannah DeSantis Creations | Made Personal, Made with Love</title>
   </head>
   <body>
+    <script>
+      const redirect = window.location.search.match(/\?[\/](.*)/)
+      if (redirect) history.replaceState(null, '', '/hannahWebsite/' + redirect[1])
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
