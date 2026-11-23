@@ -82,7 +82,6 @@ function App() {
                 <img src="/hannah-desantis-creations/assets/hero-image.jpg" onError={(e) => { e.currentTarget.src = 'https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=1200&q=90' }} alt="Handcrafted personalized gifts arranged on a coastal-inspired table" fetchPriority="high" />
               </div>
               <div className="hero-note"><Sparkles size={18} /><span>Custom made<br /><strong>for your moment</strong></span></div>
-              <div className="hero-seal">WITH<br /><strong>LOVE</strong></div>
             </div>
           </div>
         </section>
