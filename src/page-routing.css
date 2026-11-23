@@ -1,0 +1,16 @@
+@import './index.css';
+
+.site-header { position:absolute; }
+.inner-page-heading { min-height:330px; padding:150px 32px 70px; background:#f8f6f1; text-align:center; }
+.inner-page-heading h1 { font-family:'Cormorant Garamond',serif; font-size:72px; line-height:.95; margin:0; }
+.inner-page-heading p:last-child { color:#5a6e79; }
+.inner-page-heading-dark { background:var(--navy); color:white; }
+.inner-page-heading-dark .eyebrow { color:var(--seafoam); }
+.custom-section { margin:0; }
+.process-action { text-align:center; margin-top:46px; }
+.desktop-nav a.active { border-bottom:1px solid var(--rose); padding-bottom:7px; }
+
+@media (max-width:680px) {
+  .inner-page-heading { min-height:250px; padding:118px 20px 55px; }
+  .inner-page-heading h1 { font-size:50px; }
+}
