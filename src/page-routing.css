@@ -9,6 +9,19 @@
 .custom-section { margin:0; }
 .process-action { text-align:center; margin-top:46px; }
 .desktop-nav a.active { border-bottom:1px solid var(--rose); padding-bottom:7px; }
+.custom-page {
+  background: #f4f7f5;
+  color: var(--navy);
+}
+.custom-page .custom-intro .eyebrow { color: var(--sage); }
+.custom-page .custom-intro h2 { color: var(--navy); }
+.custom-page .custom-intro h2 em { color: var(--deep-rose); }
+.custom-page .custom-intro > p:not(.eyebrow) { color: #5a6e79; }
+.custom-page .email-link { color: var(--navy); border-bottom-color: rgba(17,44,65,.35); }
+.custom-page .order-form {
+  border: 1px solid #e4ebe8;
+  box-shadow: 0 18px 50px rgba(17,44,65,.08);
+}
 
 @media (max-width:680px) {
   .inner-page-heading { min-height:250px; padding:118px 20px 55px; }
