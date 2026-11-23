@@ -10,7 +10,16 @@ function ScrollToTop() {
 }
 
 function BrandMark({ footer = false }: { footer?: boolean }) {
-  return <Link to="/" className="brand" aria-label="Hannah DeSantis Creations home"><span className={`brand-mark ${footer ? 'brand-mark-footer' : ''}`}>H</span><span className="brand-copy"><strong>HANNAH DESANTIS</strong><small>CREATIONS</small></span></Link>
+  return (
+    <Link to="/" className="brand" aria-label="Hannah DeSantis Creations home">
+      <img
+        className={`brand-logo ${footer ? 'brand-logo-footer' : ''}`}
+        src={`${import.meta.env.BASE_URL}assets/logo.png`}
+        alt="Hannah DeSantis Creations logo"
+      />
+      <span className="brand-copy"><strong>HANNAH DESANTIS</strong><small>CREATIONS</small></span>
+    </Link>
+  )
 }
 
 function Header() {
